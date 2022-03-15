@@ -1,0 +1,45 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 60px;
+}
+
+input {
+    width: 100%;
+    font-size: 1.2rem;
+    color: grey;
+    border: none;
+    box-shadow: 0 0 2px grey;
+}
+
+.card {
+    border: none;
+    border-radius: 6px;
+    overflow: hidden;
+    align-content: center;
+    width: 20rem;
+    height: 260px;
+    box-shadow: 5px 5px 4px grey;
+}
+
+.card p {
+    padding: 5px;
+    text-align: center;
+}
+
+.card img {
+    max-height: 200px;
+    height: 250px;
+    width: 100%;
+}
+
+.card-grid {
+    display: flex;
+    flex-direction: row;
+    column-gap: 45px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
